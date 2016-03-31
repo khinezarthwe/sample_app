@@ -10,5 +10,7 @@ class StaticPagesController < ApplicationController
   def about
   	@base_title = "Ruby on Rails Tutorial Sample App"
   end
-
+  def contact
+  	@base_title = "Ruby on Rails Tutorial Sample App"
+  end
 end
